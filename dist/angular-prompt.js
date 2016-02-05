@@ -1,6 +1,6 @@
 angular.module('cgPrompt',['ui.bootstrap']);
 
-angular.module('cgPrompt').factory('prompt',['$modal','$q',function($modal,$q){
+angular.module('cgPrompt').factory('prompt',['$uibModal','$q',function($modal,$q){
 
     var prompt = function(options){
 
